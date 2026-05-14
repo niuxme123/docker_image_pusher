@@ -39,3 +39,14 @@ docker.io/rancher/rancher:v2.13.1
 #ollama
 ghcr.io/open-webui/open-webui:ollama
 ghcr.io/open-webui/open-webui:cuda
+
+#k8s 1.29.10
+registry.k8s.io/kube-apiserver:v1.29.10
+registry.k8s.io/kube-proxy:v1.29.10
+registry.k8s.io/kube-controller-manager:v1.29.10
+registry.k8s.io/kube-scheduler:v1.29.10
+registry.k8s.io/pause:3.9
+registry.k8s.io/etcd:3.5.12-0
+registry.k8s.io/coredns:v1.10.6
+
+
