@@ -30,3 +30,12 @@ k8s.gcr.io/coredns:1.7.0
 k8s.gcr.io/etcd:3.4.13-0
 k8s.gcr.io/pause:3.2
 
+#私有仓库
+docker.io/registry:2.8.3
+
+#rancher
+docker.io/rancher/rancher:v2.13.1
+
+#ollama
+ghcr.io/open-webui/open-webui:ollama
+ghcr.io/open-webui/open-webui:cuda
