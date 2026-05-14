@@ -1,6 +1,32 @@
-nginx
+
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
+
+#redis:7.4.1
+#nginx:1.27.2
+#mysql:8.4.3
+#mongo:4.4
+#ghcr.io/sozercan/llama3.1:8b
+#ghcr.io/open-webui/open-webui:ollama
+#ghcr.io/open-webui/open-webui:cuda
+#cr2.fit2cloud.com/1panel/maxkb
+#kubesphere/ks-installer:v3.4.1
+#docker.n8n.io/n8nio/n8n:latest
+
+redis:latest
+nginx:latest
+mysql:latest
+mongo:latest
+
+#k8s 1.20.9
+kube-apiserver:v1.20.9
+kube-proxy:v1.20.9
+kube-controller-manager:v1.20.9
+kube-scheduler:v1.20.9
+coredns:1.7.0
+etcd:3.4.13-0
+pause:3.2
+
